@@ -1,0 +1,108 @@
+body{
+    font-family:cursive;
+    color: rgb(250, 79, 79);
+} 
+.thumbnail{
+    background-color: rgb(250, 79, 79);;
+}
+#time{
+    position: relative;
+    top: -50px;
+    padding: 10px;
+    font-size: 20px;
+}
+#name{
+    font-size: 30px;
+    color: rgb(250, 79, 79);
+}
+ul li a{
+    color: rgb(250, 79, 79);
+}
+#button span{
+    background-color:rgb(250, 79, 79); ;
+}
+ul li a:hover{
+    color: rgb(253, 234, 136);
+}
+.about{
+    background-color: rgb(250, 79, 79);
+    color: rgb(253, 234, 136);
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(253, 234, 136);   
+}
+#nav{
+    background-color: rgb(253, 234, 136);
+}
+#nav ul li a:hover{
+    background-color: rgb(250, 79, 79);
+}
+.header{
+    text-align: center;
+    padding: 10px;
+}
+.change{
+    margin: 30px 0px;
+}
+#logo{
+    margin-top: 30px;
+}
+ @media screen and (max-width: 1400px) {
+    #contact{
+         /* background-color: rgb(233, 232, 232);  */
+        margin: 200px auto;
+    }
+    #menu{
+         padding-top: 130px ; 
+    }
+    #logo{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #contact{
+        /* background-color: rgb(233, 232, 232); */
+        padding-top: 100px;
+    }
+    #menu{
+         padding-top: 90px ; 
+    }
+    #logo{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:768px) {
+    #contact{
+        /* background-color: rgb(233, 232, 232); */
+        padding-top: 200px;
+    }
+    #menu{
+         padding-top: 200px ; 
+    }
+    #logo{
+        margin-top: 20px;
+    }
+    #about{
+    padding-top:180px ;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    #contact{
+        /* background-color: rgb(233, 232, 232); */
+        padding-top: 200px;
+    }
+    #menu{
+         padding-top: 200px ; 
+    }
+    #about{
+        padding-top:180px ;
+    }
+    #logo{
+        margin-top: 70px;
+    }
+}
